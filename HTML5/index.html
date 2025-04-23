@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Full Example with Audio and Map</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A complete HTML5 structure demo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#form">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About HTML5</h2>
+            <p>HTML5 is the latest version of HTML that introduces new elements and attributes to improve the structure
+                and functionality of web pages.</p>
+            <article>
+                <h3>Features of HTML5</h3>
+                <ul>
+                    <li>Semantic elements like &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;</li>
+                    <li>Audio and video support without plugins</li>
+                    <li>New input types and form controls</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="video">
+            <h2>Sample Video</h2>
+            <video width="320" height="240" controls autoplay muted>
+                <source src="./car+on+rode+mountain.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="audio">
+            <h2>Sample Audio</h2>
+            <audio controls muted>
+                <source src="./4.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section id="map">
+            <h2>Google Map</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238132.672890211!2d72.65747274867411!3d21.159440565614204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2z4KS44KWC4KSw4KSkLCDgpJfgpYHgpJzgpLDgpL7gpKQ!5e0!3m2!1shi!2sin!4v1745417155415!5m2!1shi!2sin"
+                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section>
+            <h2>Sample Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Creator</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Tim Berners-Lee</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Brendan Eich</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My HTML5 Website</p>
+    </footer>
+
+</body>
+
+</html>
