@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup Form</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1>Sign Up Page</h1>
+
+        <!-- Sign Up Form -->
+
+        <form>
+            <label for="uname">User Name : </label>
+            <input type="text" placeholder="User Name" id="uname" required />
+            <br /><br />
+
+            <label for="fname">First Name : </label>
+            <input type="text" placeholder="First Name" id="fname" required />
+            <br /><br />
+
+            <label for="lname">Last Name : </label>
+            <input type="text" placeholder="Last Name" id="lname" required />
+            <br /><br />
+
+            <label for="email">Email Id : </label>
+            <input type="email" placeholder="Enter Mail Id" id="email" required />
+            <br /><br />
+
+            <label for="no">Mobile No : </label>
+            <input type="number" placeholder="Mo Number" id="no" required />
+            <br /><br />
+
+            <label for="pass">Password : </label>
+            <input type="password" placeholder="Password" id="pass" required />
+            <br /><br />
+
+            <label for="ph">Add Photo : </label>
+            <input type="file" id="ph" required />
+            <br /><br />
+
+            <p>Date Of Birth</p>
+            <input type="date" required />
+            <br /><br />
+
+            <p>Fav language</p>
+            <input type="checkbox" id="html" value="HTML" />
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" value="CSS" />
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="javascript" value="JavaScript" />
+            <label for="javascript">JavaScript</label>
+            <br /><br />
+
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="Other" />
+            <label for="other">Other</label>
+            <br /><br />
+
+            <p>Your Job Role</p>
+            <select required>
+                <option value="">Select Job Role</option>
+                <option>Full Stack</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+            </select>
+            <br /><br />
+
+            <button>Submit</button>
+
+            <input type="reset" name="Reset" id="Reset">
+
+
+            <br /><br />
+        </form>
+
+    </div>
+</body>
+
+</html>
